@@ -12,10 +12,11 @@ export default class SongList extends React.Component {
   }
 
   componentDidMount() {
-    axious.get('https://jsonPlaceholder.typeicode.com/users')
+    axious.get('')
     .then(res => {
       const songs = res.data;
       this.setState({ songs });
+      console.log(this.state.songs)
     })
   }
   render() {
