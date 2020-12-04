@@ -8,10 +8,12 @@ function getAllSongs() {
                 $('.table-body').html(''); //empties table
                 $.each(data, function (index, song) { //.each ~loop for jQuery for each object, return key value pair
                     $('.table-body').append(
-                        "<tr class='table-items' id='"song_+ song.id + "'>" +
+                        "<tr class='table-items' contenteditable='true' id='"song_" + song.id + "'>" +
                         "<td>" + song.id + "</td>" +
                         "<td>" + song.title + "</td>" +
                         "<td>" + song.album + "</td>" +
+                        "<td>" + song.artist + "</td>" +
+                        "<td>" + song.genre + "</td>" +
                         "<td>" + song.releaseDate + "</td>"
                         "</tr>"
                     );
