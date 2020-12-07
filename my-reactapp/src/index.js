@@ -7,7 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-export default class SongList extends React.Component {
+export default class MusicList extends React.Component {
   state = {
     songs: []
   }
@@ -40,3 +40,6 @@ ReactDOM.render(
 // to log results (for vvxample: reportWebVitals(console.log))
 // or send to an analyvtics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+

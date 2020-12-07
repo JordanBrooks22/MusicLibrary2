@@ -38,4 +38,5 @@ export default class MusicList extends React.Component {
             { this.state.music[0].title}
           </p> 
           )
-        }}
+        }
+      }
