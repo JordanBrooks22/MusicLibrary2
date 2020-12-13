@@ -39,4 +39,4 @@ export default class MusicList extends React.Component {
           </p> 
           )
         }
-      }
+      };

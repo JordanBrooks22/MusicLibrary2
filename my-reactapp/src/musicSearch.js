@@ -77,39 +77,32 @@ class Search extends React.Component {
   
   export default Search
   
-  /* <Form className="md-form mr-auto mb-4">
-  <input className="form-control sm-2" type="text" placeholder="Search" aria-label="Search" width="50em" />
-  <Button variant="primary-outline" size="lg"> Search </Button>{' '}
-  </Form> */
-  
-  
-  /* <div> <Button variant="outline-primary" size="lg"> Search </Button>{' '} </div> */
-  © 2020 GitHub, Inc.
 
 
 
-
-
-  <ToolkitProvider
-keyField="id"
-data={ music }
-colums={ colums }
-search
->
-    {
-        props => (
-            <div>
-                <h3>Input something at  the input field:</h3>
-                <SearchBar { ...props.searchProps } />
-                <hr />
-                <BootstrapTable
-                { ...props.baseProps }
-                />
-            </div>
-        )
-    }
-
-</ToolkitProvider>
-
+//
+//
+//
+//  <ToolkitProvider
+//keyField="id"
+//data={ music }
+//colums={ colums }
+//search
+//>
+//    {
+//        props => (
+//            <div>
+//                <h3>Input something at  the input field:</h3>
+//                <SearchBar { ...props.searchProps } />
+//                <hr />
+//                <BootstrapTable
+//                { ...props.baseProps }
+//                />
+//            </div>
+//        )
+//    }
+//
+//</ToolkitProvider>
+//
 
 import { Nav, Navbar, NavDropdown, FormControl, Form, Button} from 'react-bootstrap/Navbar';
